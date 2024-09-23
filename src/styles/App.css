@@ -1,0 +1,228 @@
+/* Gilroy Regular 400*/
+@font-face {
+  font-family: 'Gilroy';
+  font-weight: 400;
+  font-style: normal;
+  src: local("Gilroy Regular"),
+    local("Gilroy-Regular"),
+    url("../assets/fonts/fontFamilyGilroy/fonts/gilroy-regular.woff2") format("woff2"),
+    url("../assets/fonts/fontFamilyGilroy/fonts/gilroy-regular.woff") format("woff"),
+    url("../assets/fonts/fontFamilyGilroy/fonts/gilroy-regular.eot") format("eot");
+  font-display: fallback;
+}
+/* Gilroy Medium 500*/
+@font-face {
+  font-family: 'Gilroy';
+  font-weight: 500;
+  font-style: normal;
+  src: local("Gilroy Medium"),
+    local("Gilroy-Medium"),
+    url("../assets/fonts/fontFamilyGilroy/fonts/gilroy-medium.woff2") format("woff2"),
+    url("../assets/fonts/fontFamilyGilroy/fonts/gilroy-medium.woff") format("woff"),
+    url("../assets/fonts/fontFamilyGilroy/fonts/gilroy-medium.eot") format("eot");
+  font-display: fallback;
+}
+/* Gilroy SemiBold 600*/
+@font-face {
+  font-family: 'Gilroy';
+  font-weight: 600;
+  font-style: normal;
+  src: local("Gilroy SemiBold"),
+    local("Gilroy-SemiBold"),
+    url("../assets/fonts/fontFamilyGilroy/fonts/gilroy-semibold.woff2") format("woff2"),
+    url("../assets/fonts/fontFamilyGilroy/fonts/gilroy-semibold.woff") format("woff"),
+    url("../assets/fonts/fontFamilyGilroy/fonts/gilroy-semibold.eot") format("eot");
+  font-display: fallback;
+}
+/* Gilroy Bold 700*/
+@font-face {
+  font-family: 'Gilroy';
+  font-weight: 700;
+  font-style: normal;
+  src: local("Gilroy Bold"),
+    local("Gilroy-Bold"),
+    url("../assets/fonts/fontFamilyGilroy/fonts/gilroy-bold.woff2") format("woff2"),
+    url("../assets/fonts/fontFamilyGilroy/fonts/gilroy-bold.woff") format("woff"),
+    url("../assets/fonts/fontFamilyGilroy/fonts/gilroy-bold.eot") format("eot");
+  font-display: fallback;
+}
+
+/* * {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+  font-family: 'Gilroy', sans-serif;
+}
+
+html, body{
+  height: 100%;
+  margin: 0;
+}
+
+html{
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.wrapper {
+  display: flex;
+  padding: 120px 140px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 80px;
+  align-self: stretch;
+  flex: 1 1 auto;
+
+} */
+
+
+/* * {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+  font-family: 'Gilroy', sans-serif;
+}
+
+html, body, .App {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrapper {
+  max-width: 1160px;
+  margin: 0 auto;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+  font-family: 'Outfit', sans-serif;
+}
+
+html, body, .App {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* .wrapper {
+  max-width: 1160px;
+  width: 100%; 
+  margin: 0 auto;
+  padding: clamp(16px, 4vw, 32px);
+} */
+
+
+.wrapper {
+  width: 90vw;
+  width: clamp(16rem, 92vw, 72.5rem);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  position: relative;
+}
+
+
+h1 {
+  font-weight: 700;
+  font-size: 64px;
+  color: #000000;
+  width: auto;
+}
+
+h2{
+  color:  #000;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px; 
+}
+
+h3 {
+  max-width: 527px;
+  font-weight: 500;
+  font-size: 24px;
+  color: #404040;
+}
+
+h4 {
+  max-width: 240px;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+/* 
+
+@media (max-width: 640px) {
+  .wrapper {
+    padding: 80px 16px;
+  }
+
+  h2{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: normal;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 767px) {
+  .wrapper {
+    padding: 120px 32px;
+  }
+
+  h2{
+    font-size: 36px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 949px) {
+  .wrapper {
+    padding: 120px 48px;
+  }
+
+  h2{
+    font-size: 42px;
+  }
+}
+
+@media (min-width: 950px) and (max-width: 1279px) { 
+  .wrapper {
+    padding: 120px 70px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .wrapper {
+    padding: 120px 0;
+  }
+}
+ */

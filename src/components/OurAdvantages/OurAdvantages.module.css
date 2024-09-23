@@ -1,0 +1,37 @@
+
+@media(max-width:449px){
+    .advantagesContainer{
+        gap: 16px;
+    }
+    .advantagesBox{
+        gap: 16px;
+    }
+}
+
+@media(min-width:450px) and (max-width: 900px){
+    .advantagesContainer{
+        gap: 32px;
+    }
+    .advantagesBox{
+        gap: 32px;
+    }
+}
+
+@media(min-width: 901px){
+    .advantagesContainer{
+        gap: 40px;
+    }
+    .advantagesBox{
+        gap: 40px;
+    }
+}
+
+.advantagesContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.advantagesBox{
+    display: flex;
+    flex-wrap: wrap;
+}

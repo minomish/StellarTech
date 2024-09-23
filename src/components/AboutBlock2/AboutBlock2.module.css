@@ -1,0 +1,77 @@
+.AboutBlock2_Container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.title_AboutBlock2{
+    font-size: 45px;
+}
+
+.AboutBlock2_content{
+    display: flex;
+    gap: 40px;
+}
+
+.description_AboutBlock2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    max-width: 560px;
+}
+
+.text_AboutBlock2{
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+.points_container{
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.request_points{
+    display: flex;
+    gap: 16px;
+    max-width: 272px;
+    min-width: 272px;
+    align-items: flex-start;
+}
+
+.request_point{
+    color:#404040;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.description2_AboutBlock2{
+    display: flex;
+    padding: 24px;
+    flex-direction: column;
+    gap: 24px;
+    border-radius: 16px;
+    background: #F0F3F3;
+    max-height: 134px;
+}
+
+
+.title_description2{
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px; 
+}
+
+.text_description2{
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+}

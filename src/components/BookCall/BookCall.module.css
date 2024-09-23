@@ -1,0 +1,29 @@
+
+
+.bookcallContainer{
+    display: flex;
+    padding: 80px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    border-radius: 16px;
+    background: #FFF;
+    box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.05);
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.left_img{
+    position: absolute;
+    bottom: -0.178px;
+    left: 0;
+}
+
+.right_img{
+    position: absolute;
+    right: 0px;
+    top: -0.178px;
+    rotate: 180deg;
+}

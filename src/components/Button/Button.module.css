@@ -1,0 +1,55 @@
+
+button{
+    height: 48px;
+    display: flex;
+    padding: 16px 40px;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 44px;
+    border-bottom-right-radius: 44px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.blueButton{
+    color: #FFFFFF;
+    background-color: #06F;
+    border: none;
+    text-transform: uppercase;
+}
+
+.orangeButton{
+    color: #FFFFFF;
+    background-color: #ED6F2E;
+    border: none;
+    text-transform: uppercase;
+}
+
+.withIconButton{
+    color: #404040;
+    background-color: #FFFFFF;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding-left: 12px;
+    justify-content: center;  /* ! может что то сломать */
+    
+}
+
+.lineButton{
+    color: #404040;
+    background-color: transparent;
+    border: 1px solid #06F;
+}
+
+.textButton{
+    color: #06F;
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+}
+

@@ -1,0 +1,30 @@
+
+.blogPageContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.newsContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.nav{
+    display: flex;
+    gap: 8px;
+    font-size: 18px;
+    line-height: 24px; 
+    color: rgba(0, 0, 0, 0.50);
+    font-weight: 500;
+}
+
+.nav a {
+    color: rgba(0, 0, 0, 0.50);
+    text-decoration: none;
+}
+
+.boldNav{
+    color: #000;
+    font-weight: 600;
+}

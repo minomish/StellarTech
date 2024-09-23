@@ -1,0 +1,41 @@
+@media (max-width:640px) {
+  .input_field {
+    width: 100%;
+  }
+}
+
+.input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+  border-top-left-radius: 44px;
+  border-bottom-right-radius: 44px;
+  padding: 0 32px;
+}
+.input_field {
+  position: relative;
+  height: 48px;
+  display: flex;
+ }
+
+input:focus {
+  border: 1px solid #06F;
+  outline: none;
+  box-shadow: 0 0 0 1px #06F;
+}
+
+input::placeholder {
+  overflow: hidden;
+  color: #666;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.input.invalid {
+  border-color: red;
+}

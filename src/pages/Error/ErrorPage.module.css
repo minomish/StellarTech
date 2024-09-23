@@ -1,0 +1,33 @@
+
+.errorContainer{
+    margin: 40px 0;
+    width: 80vw;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.error_img{
+    display:block;
+    width: 509px;
+}
+
+
+
+
+.error_title{
+    width: 509px;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 110%; /* 71.5px */
+}
+
+.error_description{
+    width: 509px;
+    color: #404040;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 140%; /* 33.6px */
+}

@@ -1,0 +1,128 @@
+@media (max-width:800px) {
+    .bannerContainer a{
+        max-width: 100%;
+    }
+    .oneBannerContainer a {
+        gap: 24px;
+    }
+    .title_banner{
+        max-width: 100%;
+        font-size: 24px;
+        line-height: 24px;
+    }
+    .describe_banner{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    
+}
+@media (min-width:801px) and (max-width:930px) {
+    .bannerContainer a{
+        max-width: 100%;
+    }
+    .oneBannerContainer a {
+        gap: 24px;
+    }
+    .title_banner{
+        max-width: 100%;
+        font-size: 28px;
+        line-height: normal;
+    }
+    .describe_banner{
+        font-size: 22px;
+        line-height: normal;
+    }
+}
+
+@media (min-width:931px) {
+    .bannerContainer a{
+        max-width: 560px;
+    }
+    .oneBannerContainer a {
+        gap: 40px;
+    }
+    .title_banner{
+        font-size: 24px;
+        line-height: 24px;
+    }
+    .describe_banner{
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+.bannerContainer a{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    min-width: 358px;
+    text-decoration: none;
+}
+
+.oneBannerContainer a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.img_card{
+    width: 100%;
+    aspect-ratio: 2/1;
+    border-radius: 16px;    
+}
+
+.img_card_One{
+    width: 560px;
+    height: 315px;
+    border-radius: 24px;
+}
+
+.textBannerContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.textOneBannerContainer{
+    width: 560px;
+    min-width: 560px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.title_banner{
+    color: #000;
+    font-weight: 700;
+}
+
+.title_banner_One{
+    max-width: 100%;
+    color:  #000;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px; 
+}
+
+.describe_banner{
+    color: #404040;
+    font-weight: 500;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+}
+
+.describe_banner_One{
+    height: 124px;
+    color: #404040;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 140%;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 5;
+}
+

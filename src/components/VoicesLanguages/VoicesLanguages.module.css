@@ -1,0 +1,109 @@
+.VoicesLanguages_Container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.title_VoicesLanguages{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.description_VoicesLanguages{
+    color: #292929;
+    font-weight: 500; 
+}
+
+.country_box{
+    display: flex;
+    height: 40px;
+    padding: 4px;
+    align-items: center;
+    gap: 16px;
+}
+
+.country_flag{
+    display: flex;
+    width: 70px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.country_name{
+    width: 100%;
+    color: #292929;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px; 
+}
+
+@media(max-width:540px){
+    .countries_box{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+    }
+    .country_box{
+        width: 163px;
+    }
+    .description_VoicesLanguages{
+        font-size: 18px;
+        line-height: 20px; 
+    }
+
+}
+
+@media(min-width:541px) and (max-width: 829px) {
+    .countries_box{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 24px;
+    }
+    .country_box{
+        width: 163px;
+    }
+    .description_VoicesLanguages{
+        font-size: 18px;
+        line-height: 20px; 
+    }
+
+}
+
+
+@media(min-width:830px) and (max-width:999px){
+    .countries_box{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 32px;
+    }
+    .country_box{
+        width: 163px;
+    }
+    .description_VoicesLanguages{
+        font-size: 20px;
+        line-height: 24px; 
+    }
+}
+
+
+
+@media(min-width:1000px){
+    .countries_box{
+        display: flex;
+        gap: 40px;
+        flex-wrap: wrap;
+        min-width: 171px;
+    }
+    .country_box{
+        height: 48px;
+        min-width: 171px;
+        flex: 1 0 0;
+    }
+    .description_VoicesLanguages{
+        font-size: 20px;
+        line-height: 24px; 
+    }
+}
+

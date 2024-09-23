@@ -1,0 +1,183 @@
+@media (max-width:555px){
+    .CustomVoiceBotContainer{
+        flex-direction: column;
+        gap: 16px;
+    }
+    .requestContainer{
+        gap: 16px;
+    }
+    .request{
+        padding: 24px;
+        margin: 5px;
+        gap: 16px;
+    }
+
+    .consultation_form{
+        width: 100%;
+        flex-direction: column;
+        gap: 16px;
+        align-items: center;
+    }
+
+    .input_of_form{
+        min-width: 295px;
+    }
+
+    .send_btn_forn{
+        width: 100%;
+    }
+}
+
+@media (min-width:556px) and (max-width:857px) {
+    .img_custom{
+        width: 30%;
+        object-fit: contain;
+    }
+
+    .CustomVoiceBotContainer{
+        position: relative;
+        gap: 24px;
+        align-items: flex-end;
+    }
+    .title_blockOfGetCustomVoiceBot{
+        position: absolute;
+        left: 0;
+        top: 3px;
+        width: 33%;
+        font-size: 28px;
+        line-height: normal;
+    }
+    .requestContainer{
+        gap: 16px;
+    }
+    .consultation_form{
+        gap: 16px;
+        width: 100%;
+    }
+    .input_of_form{
+        width: 100%;
+    }
+    .request{
+        padding: 24px;
+        margin-right: 10px;
+        gap: 24px;
+    }
+
+    .send_btn_forn{
+        width: 50%;
+    }
+}
+
+@media (min-width:858px) and (max-width:1059px) {
+    .CustomVoiceBotContainer{
+        gap: 32px;
+    }
+    .title_blockOfGetCustomVoiceBot{
+        width: 100%;
+    }
+    .requestContainer{
+        gap: 40px;
+    }
+    .consultation_form{
+        gap: 16px;
+        width: 100%;
+    }
+    .input_of_form{
+        width: 100%;
+    }
+    .request{
+        padding: 32px;
+        margin-right: 10px;
+        gap: 40px;
+    }
+
+    .send_btn_forn{
+        width: 47%;
+    }
+}
+
+@media (min-width:1060px) {
+
+    .CustomVoiceBotContainer{
+        gap: 40px;
+    }
+    .title_blockOfGetCustomVoiceBot{
+        max-width: 600px;
+    }
+    .requestContainer{
+        gap: 40px;
+    }
+    .consultation_form{
+        gap: 16px;
+        width: 100%;
+    }
+    .input_of_form{
+        min-width: 295px;
+    }
+    .request{
+        padding: 40px;
+        margin-right: 10px;
+        gap: 40px;
+    }
+
+    .send_btn_forn{
+        width: 100%;
+    }
+}
+
+.CustomVoiceBotContainer{
+    display: flex;
+}
+.requestContainer{
+    width: 100%;
+    max-width: 734px;
+    display: flex;
+    flex-direction: column;
+}
+
+.request{
+    max-width: 734px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    border-radius: 16px;
+    background: #FFF;
+    box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.05);
+}
+
+.request_title{
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.requestPoints_container{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.request_points{
+    display: flex;
+    gap: 16px;
+    min-width: 272px;
+    align-items: center;
+}
+
+.request_point{
+    color:#404040;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.consultation_form{
+    display: flex;
+}
+
+.img_custom{
+    width: 400px;
+}

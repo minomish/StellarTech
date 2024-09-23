@@ -1,0 +1,341 @@
+
+.UseCasesContainer{
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+}
+
+.titleContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 563px;
+}
+
+
+
+.nameOfBlock_useCases{
+    color: #D1D1D1;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.useCasesInfo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons_useCases{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    /* max-width: 440px; */
+}
+.buttons_container{
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+.buttons_container{
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.description_usecases{
+    color: #292929;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.video_useCases{
+    position: relative;
+}
+
+
+.player{
+    position: absolute;
+    top: 36%;
+    left: 43%;
+    transition: transform 0.3s ease; 
+}
+
+.player_size{
+    width: 70px;
+    height: 70px;
+}
+
+.player:hover{
+    background-size: 90px 90px;
+    position: absolute;
+    transform: scale(1.2); 
+}
+
+/* стили для видео обложки созданная в ручную 
+.video_useCases{
+    max-width: 512px;
+    max-height: 260px;
+    border-radius: 16px;
+    background: #000;
+    padding: 24px;
+    position: relative;
+    text-decoration: none;
+}
+
+.title_video{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 140%;
+}
+
+.logo_video{
+    color: #FFF;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 26px;
+    display: flex;
+    align-items: end;
+}
+
+.title_video_useCases{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.buttons_video{
+    display: flex;
+    width: 416px;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.player{
+    position: absolute;
+    top: 40%;
+    left: 43%;
+    transition: transform 0.3s ease; 
+}
+
+.player_size{
+    width: 70px;
+    height: 70px;
+}
+
+.player:hover{
+    background-size: 90px 90px;
+    position: absolute;
+    transform: scale(1.2); 
+} */
+
+
+@media (max-width: 640px) {
+    .UseCasesContainer{
+        gap: 16px;
+        justify-content: center;
+    }
+
+    .useCasesInfo{
+        flex-direction: column;
+        gap: 16px;
+        align-items: center;
+    }
+
+    .buttons_container{
+        justify-content: center;
+    }
+
+    .buttons_useCases{
+        align-items: center;
+    }
+
+    .description_usecases{
+        text-align: center;
+        max-width: 535px;
+    }
+
+    .video_img{
+        width: 100%;
+        aspect-ratio: 2/1;
+    }
+
+    .title_video{
+        font-size: 16px;
+    }
+
+
+    /* .player{
+        top: 38%;
+        left: 45%;
+    }
+
+    .player_size{
+        width: 72px;
+        height: 72px;
+    } */
+ 
+    .btn_useCases_1{
+        width: 100%;
+    }
+    .btn_useCases_2{
+        width: 100%;
+    }
+    .btn_useCases_3{
+        width: 100%;
+    }
+    .btn_useCases_4{
+        width: 100%;
+    }
+    .btn_useCases_5{
+        width: 100%;
+    }
+}
+
+ 
+@media (min-width: 641px) and (max-width: 840px){
+    .UseCasesContainer{
+        gap: 24px;
+    }
+    .useCasesInfo{
+        position: relative;
+        flex-direction: column;
+        gap: 16px;
+    }
+    .description_usecases{
+        position: absolute;
+        bottom: 35px;
+        right: 0;
+        width: 52%;
+    }
+    .btn_useCases_1{
+        width: 264px;
+    }
+    .btn_useCases_2{
+        width: 264px;
+    }
+    .btn_useCases_3{
+        width: 264px;
+    }
+    .btn_useCases_4{
+        width: 264px;
+    }
+    .btn_useCases_5{
+        width: 264px;
+    }
+    /* для в ручно-созданной картинки видео
+    .btn_video_1{
+        width: 238px;
+    }
+    .btn_video_2{
+        width: 416px;
+    }
+    .btn_video_3{
+        width: 346px;
+    } */
+    .buttons_container{
+        flex-direction: column;
+    }
+
+    .video_useCases{
+        position: absolute;
+        width: 52%;
+        right: 0;
+    }
+
+    .video_img{
+        width: 100%;
+    }
+    
+} 
+
+@media (min-width: 841px) and (max-width: 1234px) {
+    .UseCasesContainer{
+        gap: 24px;
+    }
+    .btn_useCases_1{
+        width: 358px;
+    }
+    .btn_useCases_2{
+        width: 358px;
+    }
+    .btn_useCases_3{
+        width: 358px;
+    }
+    .btn_useCases_4{
+        width: 358px;
+    }
+    .btn_useCases_5{
+        width: 358px;
+    }
+    .buttons_useCases{
+        width: 42%;
+    }
+
+    .description_usecases{
+        max-width: 380px;
+    }
+
+    .video_useCases{
+        width: 52%;
+        max-width: 512px;
+    }
+
+    .video_img{
+        width: 100%;
+        aspect-ratio: 2/1;
+    }
+}
+
+
+@media (min-width: 1235px) {
+    .btn_useCases_1{
+        width: 306px;
+    }
+    .btn_useCases_2{
+        width: 306px;
+    }
+    .btn_useCases_3{
+        width: 306px;
+    }
+    .btn_useCases_4{
+        width: 306px;
+    }
+    .btn_useCases_5{
+        width: 306px;
+    }
+    .btn_video_1{
+        width: 238px;
+    }
+    .btn_video_2{
+        width: 416px;
+    }
+    .btn_video_3{
+        width: 346px;
+    }
+
+    .useCasesInfo{
+        gap: 16px;
+    }
+/* 
+    .buttons_container{
+        width: 400px;
+    } */
+
+    .video_useCases{
+        max-width: 500px;
+    }
+    .video_img{
+        width: 100%;
+    }
+} 
+
+
+
+
+

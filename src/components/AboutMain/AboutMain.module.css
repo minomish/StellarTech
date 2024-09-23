@@ -1,0 +1,50 @@
+
+.aboutContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    gap: 40px;
+}
+
+.nav{
+    display: flex;
+    gap: 8px;
+    font-size: 18px;
+    line-height: 24px; 
+    color: rgba(0, 0, 0, 0.50);
+    font-weight: 500;
+}
+
+.nav a {
+    color: rgba(0, 0, 0, 0.50);
+    text-decoration: none;
+}
+
+.boldNav{
+    color: #000;
+    font-weight: 600;
+}
+
+.titleBox_aboutUs{
+    display: flex;
+    align-items: flex-end;
+    gap: 24px;
+}
+
+.title_aboutUs{
+    color: #000;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 110%;
+    max-width: 734px;
+}
+
+.description_aboutUs{
+    color:#404040;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 140%;
+    width: 100%;
+}

@@ -1,0 +1,9 @@
+.aboutPageContainer{
+    width: 100%;
+    max-width: 1160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 80px;
+    overflow: hidden;
+}

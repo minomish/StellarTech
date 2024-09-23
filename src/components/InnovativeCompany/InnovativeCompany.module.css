@@ -1,0 +1,13 @@
+
+.innovativeContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.innovativeBox{
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    align-self: stretch;
+}
